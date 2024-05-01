@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sentimental Analysis
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+
+    </head>
+    <body>
+        <div class="main">
+            <h1>Sentimental Analysis
+            </h1>
+            <p>Sentiment analysis utilizes natural language processing to discern emotions conveyed in text, classifying them as positive, negative, or neutral. It aids in understanding public opinion, guiding decision-making in areas like social media monitoring, market research, and customer feedback analysis. By providing insights into user sentiment, sentiment analysis enables businesses to refine products/services, manage brand reputation, and identify emerging trends. Its application extends across diverse fields, facilitating data-driven strategies and enhancing customer engagement.</p>
+        </div>
+        <div class="analysis">
+            <h2>
+                Upload your CSV file
+            </h2>
+            <div class="Upload">
+                <input type="file" class="up2">
+                <button>
+                    <span> Analyse
+                    </span>
+                  </button>
+            </div>
+            <h2>
+                Enter your text here
+            </h2>
+            <div class="text">
+                <input type="text" placeholder="Type here...." color: #> 
+            </div>          
+            <div class="result-box">
+                <h2>Sentimental Analysis Result</h2>
+                <h3>Sentence Emotion</h3>
+                <div id="emotion"></div>
+                <div id="score"></div>
+            </div>
+            
+
+
+        </div>
+
+
+    </body>
+</html>
